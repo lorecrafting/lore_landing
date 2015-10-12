@@ -1,0 +1,18 @@
+{
+  "name": "lore_landing",
+  "version": "0.0.1",
+  "description": "Lorecraft's landing page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheWhiteOx/lore_landing/"
+  },
+  "keywords": [
+    "lorecraft"
+  ],
+  "author": "Raymond Luong",
+  "license": "MIT"
+}
