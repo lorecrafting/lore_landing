@@ -1,18 +1,26 @@
 img {
 	zoom: 5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .containerDiv {
-	width: 700px;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#title {
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;	
+#titleDiv {
+	width: 60%;
+	margin: 0 auto;
 }
+
+#emailDiv {
+	width: 50%;
+	margin: 0 auto;
+}
+
 
 
 
