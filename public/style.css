@@ -11,14 +11,12 @@ img {
 	margin-right: auto;
 }
 
-#titleDiv {
-	width: 60%;
-	margin: 0 auto;
+h1 {
+	text-align: center;
 }
 
-#emailDiv {
-	width: 50%;
-	margin: 0 auto;
+#email {
+	text-align: center;
 }
 
 
