@@ -1,42 +1,171 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Lorecraft</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Slabo+27px&subset=greek' rel='stylesheet' type='text/css'>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-58342968-2', 'auto');
-      ga('send', 'pageview');
-  </script>
-  </head>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
 
-  <div class="containerDiv">
-      <br>
-      <br>
-        <h1>The Lorecraft Project</h1>
-      <br>
-        <img id="logo" align="middle"src="treelogo.jpg" alt="Tree Logo">
-      <br>
-      <br>
-        <div id="body">
-          <p>Project Lorecraft aims to revive the lore of our planet through the most expedient means of this generation.  A modern text RPG platform will be built for storytellers and game designers to retell the important lore of our world in an effort to stem the tide of deculturalization.</p>
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
-          <p>The issues we face as a global society, organizations and even just as individuals have been faced before in the history of our world.  The case studies and answers to our seemingly trying problems are embedded in the stories, histories and folklore of our various esteemed cultures.</p>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-          <p>This is a sincere appeal to the public for help.  Expertise, advice and input from all various fields and disciplines are needed in order for us to succeed.  A seed community will be created to facilitate discussion around the topic.  If this mission resonates with you at all, we’d like to express our utmost gratitude and invite you into our budding community.</p>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Lorecraft</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contributors">Contributors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        
-      <br>
-        <center><a id="email" href="mailto:thewhiteoxinbox@gmail.com">thewhiteoxinbox@gmail.com</a></center>
-      <br>
-  </div>
+        <!-- /.container -->
+    </nav>
 
-  </body>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Lorecraft</h1>
+                        <p class="intro-text">Lore, culture and history meets gaming.<br>Tell us your story.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p><img class="aboutlogo" align="middle"src="img/treelogo.png" alt="Tree Logo"></p>
+                <h2>About Lorecraft</h2>
+                <p>Project Lorecraft aims to revive the lore of our planet through the most expedient means of this generation.  A modern text RPG platform will be built for storytellers and game designers to retell the important lore of our world in an effort to stem the tide of deculturalization.</p>
+
+                <p>The issues we face as a global society, organizations and even just as individuals have been faced before in the history of our world.  The case studies and answers to our seemingly trying problems are embedded in the stories, histories and folklore of our various esteemed cultures.</p>
+
+                <p>This is a sincere appeal to the public for help.  Expertise, advice and input from all various fields and disciplines are needed in order for us to succeed.  A seed community will be created to facilitate discussion around the topic.  If this mission resonates with you at all, we’d like to express our utmost gratitude and invite you into our budding community.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contributor Section -->
+    <section id="contributors" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contributors</h2>
+                <p class=" col-lg-12 contributorName">Raymond Luong | <span class="contributorTitle">Software Engineer</span></p>
+                <p class="contributorInfo col-lg-8 col-lg-offset-2">Favorite RPG: LegendMUD. Favorite League of Legends champion: Fiddlesticks. Lover of history and philosophy.  Most recent favorite book: Meditations by Marcus Aurelius.</p>
+                <p class=" col-lg-12 contributorName">Kevin Egami | <span class="contributorTitle">Software Engineer</span></p>
+                <p class="contributorInfo col-lg-8 col-lg-offset-2">Favorite RPG: FFVII.  Favorite League of Legends champion: Riven.  An avid reader of fiction novels, Kevin enjoys classics to contemporary spreading across all genres.  His most recent favorite book:  All the Light We Cannot See by Anthony Doerr.</p>
+                <p class=" col-lg-12 contributorName">Cali Inouye | <span class="contributorTitle">Graphic Designer</span></p>
+                <p class="contributorInfo col-lg-8 col-lg-offset-2">Something about Cali</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Lorecraft</h2>
+                <p>Interested? Questions? Have a story?  Email us!</p>
+                <p><a id="email" href="mailto:thewhiteoxinbox@gmail.com">thewhiteoxinbox@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Lorecraft 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
