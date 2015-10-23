@@ -20,6 +20,10 @@ h1 {
 	font-family: 'Noto Serif', serif;
 }
 
+#body {
+	font-size: 130%;
+}
+
 #email {
 	text-align: center;
 }
